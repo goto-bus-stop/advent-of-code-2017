@@ -7,3 +7,9 @@ test('day one, part one', function (t) {
   t.equal(revcaptcha(input), 1097)
   t.end()
 })
+
+test('day one, part two', function (t) {
+  var revcaptcha = require('./two')
+  t.equal(revcaptcha(input), 1188)
+  t.end()
+})
