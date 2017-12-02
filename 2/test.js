@@ -24,3 +24,9 @@ test('day two, part one', function (t) {
   t.equal(checksum(input), 39126)
   t.end()
 })
+
+test('day two, part two', function (t) {
+  var checksum = require('./two')
+  t.equal(checksum(input), 258)
+  t.end()
+})
